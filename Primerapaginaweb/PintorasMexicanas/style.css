@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    font-family:  'Indie Flower', cursive;
+}
+body{
+    background-color: #f1cbd8;
+}
+.title{
+    text-shadow: 2px 2px #ff00ff;
+    text-align: center;
+}
+h2{
+    color: purple;
+}
+.title2{
+    color: black !important;
+    text-align: right;
+}
+section{
+    display:inline-flex; 
+    width: 20%;
+    margin: 0 2% 0 2%;
+    
+}
+img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: rgb(77, 0, 112) 2px 2px 6px;
+}
+.cardname{
+    font-size: 18px;
+    color: indigo;
+    text-align: center;
+}
+.carddate{
+    color: fuchsia;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+.cardp{
+    color: purple; 
+    font-size: 12px;
+    text-align: justify;
+}
+.box{
+    background: rgb(250,218,255);
+    background: linear-gradient(153deg, rgba(250,218,255,1) 0%, rgba(190,140,255,1) 100%);
+    border-style: dotted;
+    border-radius: 8px; 
+    border-color: rgb(255, 0, 200);
+    box-shadow: indianred 7px 6px 6px;
+}
+
+/* Agregando un poco de diseño responsivo :) */
+
+@media only screen and (max-width: 900px) {
+section{
+    display:inline-flex; 
+    width: 45%;
+    margin: 0 2% 0 2%;
+    
+}
+h2{
+    color: purple;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.refe{
+    font-size: 12px !important; 
+}
+}
+
+@media only screen and (max-width: 450px) {
+section{
+    display:inline-flex; 
+    width: 90%;
+    margin: 0 5% 0 5%;
+    
+}
+h2{
+    color: purple;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.refe{
+    font-size: 8px !important; 
+}
+}
