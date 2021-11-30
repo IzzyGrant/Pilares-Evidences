@@ -1,0 +1,30 @@
+body{
+    background: #000000;
+  }
+  h1{
+    color: #FFF;
+    background: #0F0;
+    text-align: center;
+  }
+  h2{
+    color: #F00;
+    text-align: center;
+  }
+  .parraf1{
+    color: #00F;
+    margin: 40px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .parraf2{
+    color: #90F;
+    margin: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+  cite{
+    color: #0FF;
+    margin: 40px;
+    font-size: 12px;
+    float: right;
+  }
