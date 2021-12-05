@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+.imgpr{
+    display: inline-flex;
+    padding: 10%;
+    margin: 3em;
+    background-color: aqua;
+}
+.texto{
+    display: inline-flex;
+    padding: 10%;
+    margin: 3em;
+    background-color: aqua;
+    text-align: justify;
+}
+ul {
+    display: inline-block;
+    margin-right: 1em;
+    margin-top: 1em;
+    position: fixed;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;  
+    color: rgb(0, 58, 109); 
+}
