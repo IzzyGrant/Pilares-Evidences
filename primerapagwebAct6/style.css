@@ -3,25 +3,17 @@
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.imgpr{
-    display: inline-flex;
-    padding: 10%;
-    margin: 3em;
-    background-color: aqua;
-}
-.texto{
-    display: inline-flex;
-    padding: 10%;
-    margin: 3em;
-    background-color: aqua;
-    text-align: justify;
+.logo{
+    float: left;
+    color: white;
+    margin-left: 1%;
 }
 ul {
     margin-right: 1em;
     margin-top: 1em;
     margin-left: 10vw;
-    background-color: black;
 }
 li{
     display: block;
@@ -39,4 +31,24 @@ a{
     position: fixed; 
     width: 100%; 
     box-shadow: 0 3px 6px rgba(42, 53, 44, 0.5);
+}
+section{
+    margin: 0%;
+}
+.frow {
+    clear:both;
+	padding:10px;
+}
+.frow .col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+    background:#CCC;
+    padding:2%;
+}
+.frow .col:first-child{ 
+    margin-left: 0; 
+}
+.frow .col3 {
+    width: 32%;
 }
