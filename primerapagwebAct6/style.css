@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Jost:wght@100;200;300;400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Jost', sans-serif;
 }
 .logo{
     float: left;
@@ -27,10 +29,10 @@ a{
 }
 #nav-bar{
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(174, 0, 255, 1.0);
     position: fixed; 
     width: 100%; 
-    box-shadow: 0 3px 6px rgba(42, 53, 44, 0.5);
+    box-shadow: 0 3px 6px rgba(82, 8, 255, 0.5);
 }
 section{
     margin: 0%;
@@ -43,7 +45,7 @@ section{
 	display: block;
 	float:left;
 	margin: 4em 0 1% 1.6%;
-    background:#CCC;
+    background:rgb(214, 196, 255);
     padding:2%;
 }
 .frow .col:first-child{ 
@@ -51,4 +53,30 @@ section{
 }
 .frow .col3 {
     width: 32%;
+    border-radius: 8px;
+}
+.imgresp{
+    display: block;
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.links{
+    background-color: blueviolet;
+    margin: 5px;
+    border-radius: 10px;
+}
+.foot-menu{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: inline-flex;
+    bottom: 0%;
+}
+.foot-links{
+    display: inline-flex;
+    font-style: italic;
+    text-align: center;
 }
