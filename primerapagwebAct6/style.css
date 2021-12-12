@@ -67,7 +67,8 @@ section{
 .links{
     background-color: blueviolet;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 9px;
+    text-align: center;
 }
 .foot-menu{
     background-color: rgba(0, 0, 0, 0.1);
@@ -79,4 +80,15 @@ section{
     display: inline-flex;
     font-style: italic;
     text-align: center;
+}
+
+@media only screen and (max-width: 450px){
+    .frow .col3 {
+        width: 97%;
+    }   
+    .frow .col {
+        display: block;
+        float:left;
+        margin: 8em 0 1% 1.6%;
+    }
 }
